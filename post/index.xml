@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Archer-Wen`s Blog</title>
+    <link>https://Archer-Wen.github.io/post/</link>
+    <description>Recent content in Posts on Archer-Wen`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2020 11:13:38 +0800</lastBuildDate><atom:link href="https://Archer-Wen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java设计模式 六大原则</title>
+      <link>https://Archer-Wen.github.io/p/java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%85%AD%E5%A4%A7%E5%8E%9F%E5%88%99/</link>
+      <pubDate>Tue, 20 Oct 2020 11:13:38 +0800</pubDate>
+      
+      <guid>https://Archer-Wen.github.io/p/java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%85%AD%E5%A4%A7%E5%8E%9F%E5%88%99/</guid>
+      <description>Java设计模式-六大原则 1、单一职能原则（Single Responsibility Principle, SRP） 定义
+ There should never be more than one reason for a class to change.
+应该有且仅有一个原因引起类的变更（一个接口或类只有一个职责）
+ 好处
+ 类的复杂性降低，实现什么职责都有清晰明确的定义； 可读性提高，复杂性降低，那当然可读性提高了； 可维护性提高，可读性提高，那当然更容易维护了； 变更引起的风险降低，变更时必不可少的，如果接口的单一职责做得好，一个接口修改只对相应的实现类有影响，对其他的接口无影响，这对系统的扩展性、维护性都有非常大的帮助。  最佳实践
+职责的划分很难，要想完全符合单一职责的设计更难，原则是接口一定要做到单一职责，类的设计尽量做到只有一个原因引起变化
+2、里氏替换原则（LiskovSubstitution Principle，LSP） 继承的利与弊
+优点：
+ 代码共享，减少创建类的工作量，每个子类都拥有父类的方法和属性； 提高代码的重用性； 子类可以形似父类，但又异于父类； 提高代码的可扩展性，实现父类的方法就可以“为所欲为”了； 提高产品或项目的开放性。  缺点：
+ 继承是侵入性的。只要继承，就必须拥有父类的所有属性和方法； 降低代码的灵活性。子类必须拥有父类的属性和方法，让子类自由的世界中多了些约束； 增强了耦合性。当父类的常量、变量和方法被修改时，需要考虑子类的修改，而且在缺乏规范的环境下，这种修改可能带来非常糟糕的结果——大段的代码需要重构。  定义
+ If for each object o1 of type S there is an object o2 oftype T such that for all programs P defined in terms of T,the behavior of P is unchanged when o1 issubstituted for o2 then S is a subtype of T.</description>
+    </item>
+    
+  </channel>
+</rss>
